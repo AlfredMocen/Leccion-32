@@ -1,0 +1,23 @@
+table{
+    width: 100%;
+}
+
+table, th, td{
+  border: 1px solid black;  
+  /*border-collap dibuja la tabla con linea sencilla*/
+  border-collapse: collapse; /*es lo más usado*/
+  /*border-spacing dibuja la tabla con mas espacio 
+  entre las lineas dobles que por defaul se dibujan 
+  en tabla*/
+  /* border-spacing: 5px; */
+
+
+  padding: 5px;
+}
+
+/* td{
+    text-align: center;
+} */
+/* th{
+    text-align: left;
+} */
